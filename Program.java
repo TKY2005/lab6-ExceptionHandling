@@ -18,12 +18,10 @@ public class Program{
 				reader.close();
 				writer.close();
 			}catch (IOException IOError){
-				System.out.println("Couldn't write to output file");
-				IOError.printStackTrace();
+				System.out.println("Couldn't write to output file. Either There's an error preventing the system from creating the file or you don't have required permessions to write to the file.");
 			}
 		    } catch(FileNotFoundException fileError) {
-			    System.out.println("Couldn't find the file requested");
-			    fileError.printStackTrace();
+			    System.out.println("Couldn't find input file. Either the path is wrong or the file doesn't exist.");
 		    }
 	}
 }

@@ -1,0 +1,7 @@
+hello. This is a test
+reading files from java
+This is the third line
+??>>>????>>>>???>>>>
+nevermind the line above it's just a test.
+This is the final line!!!
+JK... This is the actual final line. The program has read all files successfully.

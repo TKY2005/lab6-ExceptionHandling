@@ -1,3 +1,10 @@
+/*
+ * Name: Youssef Mohamed Torki Ahmed
+ * ID: 445820246
+ * Lab6 Exception handling and file reading
+ *
+*/
+
 import java.io.*;
 
 public class Program{
